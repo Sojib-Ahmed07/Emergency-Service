@@ -33,7 +33,7 @@
                     <i class="fas fa-coins text-yellow-300"></i>
                 </div>
                 <button
-                    class="text-white bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200">
+                    class="text-white bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200"><span id="btn-copy-count">0</span>
                     Copy
                 </button>
             </div>
@@ -47,273 +47,276 @@
             </div>
         </div>
         <h1 class="text-3xl font-bold mb-3">জরুরি সেবা ডিরেক্টরি</h1>
-        <p class="text-sm opacity-90 max-w-2xl mx-auto">Government Emergency Services at Your Fingertip - A Project by
-            Government of the People's Republic of Bangladesh</p>
+        <p class="text-sm opacity-90 whitespace-nowrap overflow-x-auto">
+            Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of
+            Bangladesh</p>
     </div>
 
-    <div class="max-w-7xl mx-auto p-6">
-        <div class="flex flex-col lg:flex-row flex-wrap gap-8 max-w-full">
-            <div class="flex-1">
-                <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-green-50">
+        <div class="max-w-7xl mx-auto p-6">
+            <div class="flex flex-col lg:flex-row flex-wrap gap-8 max-w-full">
+                <div class="flex-1">
+                    <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
-                                <img src="assets/emergency.png" alt="Emergency Icon" class="w-7 h-7">
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
+                                    <img src="assets/emergency.png" alt="Emergency Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
-                        </div>
-                        <h3 class="service-title text-gray-800 mb-1">জাতীয় জরুরি সেবা</h3>
-                        <p class="service-category text-gray-500 mb-4">National Emergency</p>
-                        <div class="text-3xl phone-number text-gray-900 mb-2">999</div>
-                        <p class="text-xs text-gray-400 mb-5">সার্বক্ষণিক</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-blue rounded-xl flex items-center justify-center">
-                                <img src="assets/police.png" alt="Police Icon" class="w-7 h-7">
+                            <h3 class="service-title text-gray-800 mb-1">জাতীয় জরুরি সেবা</h3>
+                            <p class="service-category text-gray-500 mb-4">National Emergency</p>
+                            <div class="text-3xl phone-number text-gray-900 mb-2">999</div>
+                            <p class="text-xs text-gray-400 mb-5">সার্বজনীন</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
                         </div>
-                        <h3 class="service-title text-gray-800 mb-1">পুলিশ</h3>
-                        <p class="service-category text-gray-500 mb-4">Police</p>
-                        <div class="text-3xl phone-number text-gray-900 mb-2">999</div>
-                        <p class="text-xs text-gray-400 mb-5">পুলিশ</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
 
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
-                                <img src="assets/fire-service.png" alt="Fire Service Icon" class="w-7 h-7">
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-blue rounded-xl flex items-center justify-center">
+                                    <img src="assets/police.png" alt="Police Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
-                        </div>
-                        <h3 class="service-title text-gray-800 mb-1">ফায়ার সার্ভিস</h3>
-                        <p class="service-category text-gray-500 mb-4">Fire Service</p>
-                        <div class="text-3xl phone-number text-gray-900 mb-2">999</div>
-                        <p class="text-xs text-gray-400 mb-5">জরুরি</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
-                                <img src="assets/ambulance.png" alt="Ambulance Icon" class="w-7 h-7">
+                            <h3 class="service-title text-gray-800 mb-1">পুলিশ</h3>
+                            <p class="service-category text-gray-500 mb-4">Police</p>
+                            <div class="text-3xl phone-number text-gray-900 mb-2">999</div>
+                            <p class="text-xs text-gray-400 mb-5">পুলিশ</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
                         </div>
-                        <h3 class="service-title text-gray-800 mb-1">অ্যাম্বুলেন্স</h3>
-                        <p class="service-category text-gray-500 mb-4">Ambulance</p>
-                        <div class="text-2xl phone-number text-gray-900 mb-2">1994-999999</div>
-                        <p class="text-xs text-gray-400 mb-5">জরুরি</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
 
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-pink rounded-xl flex items-center justify-center">
-                                <img src="assets/emergency.png" alt="Women Child Icon" class="w-7 h-7">
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
+                                    <img src="assets/fire-service.png" alt="Fire Service Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
-                        </div>
-                        <h3 class="service-title text-gray-800 mb-1">নারী ও শিশু সহায়তা</h3>
-                        <p class="service-category text-gray-500 mb-4">Women & Child Helpline</p>
-                        <div class="text-3xl phone-number text-gray-900 mb-2">109</div>
-                        <p class="text-xs text-gray-400 mb-5">সহায়তা</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
-                                <img src="assets/emergency.png" alt="Anti-Corruption Icon" class="w-7 h-7">
+                            <h3 class="service-title text-gray-800 mb-1">ফায়ার সার্ভিস</h3>
+                            <p class="service-category text-gray-500 mb-4">Fire Service</p>
+                            <div class="text-3xl phone-number text-gray-900 mb-2">999</div>
+                            <p class="text-xs text-gray-400 mb-5">ফায়ার</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
                         </div>
-                        <h3 class="service-title text-gray-800 mb-1">দুদক</h3>
-                        <p class="service-category text-gray-500 mb-4">Anti-Corruption</p>
-                        <div class="text-3xl phone-number text-gray-900 mb-2">106</div>
-                        <p class="text-xs text-gray-400 mb-5">সহায়তা</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
 
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-yellow rounded-xl flex items-center justify-center">
-                                <img src="assets/emergency.png" alt="Electric Icon" class="w-7 h-7">
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
+                                    <img src="assets/ambulance.png" alt="Ambulance Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
-                        </div>
-                        <h3 class="service-title text-gray-800 mb-1">বিদ্যুৎ বিভাগ</h3>
-                        <p class="service-category text-gray-500 mb-4">Electric Outage</p>
-                        <div class="text-2xl phone-number text-gray-900 mb-2">16216</div>
-                        <p class="text-xs text-gray-400 mb-5">বিদ্যুৎ</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-orange rounded-xl flex items-center justify-center">
-                                <img src="assets/emergency.png" alt="BRAC Icon" class="w-7 h-7">
+                            <h3 class="service-title text-gray-800 mb-1">অ্যাম্বুলেন্স</h3>
+                            <p class="service-category text-gray-500 mb-4">Ambulance</p>
+                            <div class="text-2xl phone-number text-gray-900 mb-2">1994-999999</div>
+                            <p class="text-xs text-gray-400 mb-5">স্বাস্থ্য</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
                         </div>
-                        <h3 class="service-title text-gray-800 mb-1">ব্র্যাক</h3>
-                        <p class="service-category text-gray-500 mb-4">Brac</p>
-                        <div class="text-2xl phone-number text-gray-900 mb-2">16445</div>
-                        <p class="text-xs text-gray-400 mb-5">জরুরিভাব</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
 
-                    <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
-                        <div class="flex items-center justify-between mb-4">
-                            <div class="w-12 h-12 icon-bg-blue rounded-xl flex items-center justify-center">
-                                <img src="assets/emergency.png" alt="Railway Icon" class="w-7 h-7">
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-pink rounded-xl flex items-center justify-center">
+                                    <img src="assets/emergency.png" alt="Women Child Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
                             </div>
-                            <i class="far fa-heart text-gray-300 text-lg"></i>
-                        </div>
-                        <h3 class="service-title text-gray-800 mb-1">বাংলাদেশ রেলওয়ে</h3>
-                        <p class="service-category text-gray-500 mb-4">Bangladesh Railway</p>
-                        <div class="text-3xl phone-number text-gray-900 mb-2">163</div>
-                        <p class="text-xs text-gray-400 mb-5">রেইলওয়ে</p>
-                        <div class="flex space-x-3">
-                            <button
-                                class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="far fa-copy"></i>
-                                <span>Copy</span>
-                            </button>
-                            <button
-                                class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
-                                <i class="fas fa-phone"></i>
-                                <span>Call</span>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="w-full lg:w-1/3 flex">
-                <div class="bg-white rounded-xl card-shadow call-history-bg w-full">
-                    <div class="p-6 border-b border-gray-100 flex items-center justify-between">
-                        <div class="flex items-center space-x-3">
-                            <i class="fas fa-history text-gray-600 text-lg"></i>
-                            <h2 class="font-semibold text-gray-800 text-lg">Call History</h2>
-                        </div>
-                        <button id="clear-history"
-                            class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200">
-                            Clear
-                        </button>
-                    </div>
-                    <div class="p-8">
-                        <div id="no-history" class="text-center text-gray-500 py-12">
-                            <div
-                                class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <i class="fas fa-phone text-2xl text-gray-300"></i>
+                            <h3 class="service-title text-gray-800 mb-1">নারী ও শিশু সহায়তা</h3>
+                            <p class="service-category text-gray-500 mb-4">Women & Child Helpline</p>
+                            <div class="text-3xl phone-number text-gray-900 mb-2">109</div>
+                            <p class="text-xs text-gray-400 mb-5">সহায়তা</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
                             </div>
-                            <p class="text-sm font-medium text-gray-600 mb-2">No call history available</p>
-                            <p class="text-xs text-gray-400 leading-relaxed">Your recent emergency calls will appear
-                                here for quick reference</p>
                         </div>
-                        <div id="history-list" class="space-y-4"></div>
+
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-red rounded-xl flex items-center justify-center">
+                                    <img src="assets/emergency.png" alt="Anti-Corruption Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
+                            </div>
+                            <h3 class="service-title text-gray-800 mb-1">দুদক</h3>
+                            <p class="service-category text-gray-500 mb-4">Anti-Corruption</p>
+                            <div class="text-3xl phone-number text-gray-900 mb-2">106</div>
+                            <p class="text-xs text-gray-400 mb-5">সরকারি</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-yellow rounded-xl flex items-center justify-center">
+                                    <img src="assets/emergency.png" alt="Electric Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
+                            </div>
+                            <h3 class="service-title text-gray-800 mb-1">বিদ্যুৎ বিভাগ</h3>
+                            <p class="service-category text-gray-500 mb-4">Electric Outage</p>
+                            <div class="text-2xl phone-number text-gray-900 mb-2">16216</div>
+                            <p class="text-xs text-gray-400 mb-5">বিদ্যুৎ</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-orange rounded-xl flex items-center justify-center">
+                                    <img src="assets/emergency.png" alt="BRAC Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
+                            </div>
+                            <h3 class="service-title text-gray-800 mb-1">ব্র্যাক</h3>
+                            <p class="service-category text-gray-500 mb-4">Brac</p>
+                            <div class="text-2xl phone-number text-gray-900 mb-2">16445</div>
+                            <p class="text-xs text-gray-400 mb-5">এনজিও</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl card-shadow p-6 transition-all duration-300">
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="w-12 h-12 icon-bg-blue rounded-xl flex items-center justify-center">
+                                    <img src="assets/Bangladesh-Railway.png" alt="Railway Icon" class="w-7 h-7">
+                                </div>
+                                <i class="far fa-heart text-gray-300 text-lg"></i>
+                            </div>
+                            <h3 class="service-title text-gray-800 mb-1">বাংলাদেশ রেলওয়ে</h3>
+                            <p class="service-category text-gray-500 mb-4">Bangladesh Railway</p>
+                            <div class="text-3xl phone-number text-gray-900 mb-2">163</div>
+                            <p class="text-xs text-gray-400 mb-5">পরিবহন</p>
+                            <div class="flex space-x-3">
+                                <button
+                                    class="flex-1 btn-copy text-gray-600 py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="far fa-copy"></i>
+                                    <span>Copy</span>
+                                </button>
+                                <button
+                                    class="flex-1 btn-call text-white py-2.5 px-4 rounded-lg text-sm font-medium flex items-center justify-center space-x-2">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Call</span>
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
+                <div class="w-full lg:w-1/3 flex">
+                    <div class="bg-white rounded-xl card-shadow call-history-bg w-full">
+                        <div class="p-6 border-b border-gray-100 flex items-center justify-between">
+                            <div class="flex items-center space-x-3">
+                                <i class="fas fa-history text-gray-600 text-lg"></i>
+                                <h2 class="font-semibold text-gray-800 text-lg">Call History</h2>
+                            </div>
+                            <button id="clear-history"
+                                class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200">
+                                Clear
+                            </button>
+                        </div>
+                        <div class="p-8">
+                            <div id="no-history" class="text-center text-gray-500 py-12">
+                                <div
+                                    class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                                    <i class="fas fa-phone text-2xl text-gray-300"></i>
+                                </div>
+                                <p class="text-sm font-medium text-gray-600 mb-2">No call history available</p>
+                                <p class="text-xs text-gray-400 leading-relaxed">Your recent emergency calls will appear
+                                    here for quick reference</p>
+                            </div>
+                            <div id="history-list" class="space-y-4"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
             </div>
-
-
-
-
         </div>
     </div>
 
